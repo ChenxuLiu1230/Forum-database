@@ -1,13 +1,6 @@
 # A forum website based on SQL
 
-## Preparing for your release
-Eash submission should be in it's own [release](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases). Release are specific freezes to your repository. You should submit your commit hash on canvas or google sheet. When tagging your stage, please use the tag `stage.x` where x is the number to represent the stage.
-
-## Keeping things up-to-date
-You should make sure you keep your project root files up-to-date. Information for each file/folders are explained.
-
-## Code Contribution
-Individual code contribution will be used to evaluate individual contribution to the project.
+This is the final project for CS 411 (Database System) at UIUC -- A forum website. Basically the users can register an account at the forum and participated in the discussion on the latest news. In details, they can write new comments on a news, upvote on other users' comments, change password etc. We also write a Trigger to provide default introduction for new users if they don't provide one for themselves. Also, a stored procedure is used to display the honor rank of the top 100 users in the forum based on the total upvotes they've received. This project is based on MySQL in backend, and we use Javascript (React) to develop frontend. The whole project is hosted on GCP. 
 
 ## Demo Video Link
 https://youtu.be/RaLcBz8Malc
